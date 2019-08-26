@@ -28,6 +28,8 @@
 	<label>비밀번호 확인 :<br>
 	<input type="password" name="confirmpassword" id="confirmpassword">
 	</label>
-	</p></form>
+	</p>
+	<input type="submit" value="가입완료">
+	</form>
 </body>
 </html>
