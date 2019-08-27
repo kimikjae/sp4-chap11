@@ -5,9 +5,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import spring04_chap11.AlreadyExistingMemberException;
-import spring04_chap11.MemberRegisterService;
-import spring04_chap11.RegisterRequest;
+import spring.AlreadyExistingMemberException;
+import spring.MemberRegisterService;
+import spring.RegisterRequest;
 
 @Controller
 public class RegisterController {

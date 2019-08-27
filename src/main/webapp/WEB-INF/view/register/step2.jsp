@@ -11,7 +11,7 @@
 	<form action="step3" method="post">
 	<p>
 	<label>¿Ã∏ﬁ¿œ:<br>
-	<input type="text" name="name" id="email">
+	<input type="text" name="email" id="email">
 	</label>
 	</p>
 	<p>

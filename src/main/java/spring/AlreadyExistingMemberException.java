@@ -1,4 +1,4 @@
-package spring04_chap11;
+package spring;
 
 public class AlreadyExistingMemberException extends RuntimeException {
 

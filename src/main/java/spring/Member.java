@@ -1,4 +1,4 @@
-package spring04_chap11;
+package spring;
 
 import java.util.Date;
 
