@@ -1,21 +1,19 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR"
-    pageEncoding="EUC-KR"%>
-    <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<%@ page contentType="text/html; charset=utf-8" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="EUC-KR">
-<title>ÀÀ´ä ³»¿ë</title>
+	<title>ì‘ë‹µ ë‚´ìš©</title>
 </head>
 <body>
-	<p>ÀÀ´ä ³»¿ë:</p>
+	<p>ì‘ë‹µ ë‚´ìš©:</p>
 	<ul>
-	<c:forEach var="response"
-		items="${ansData.responses }" varStatus="status">
-		<li>${status.index +1}¹ø ¹®Ç×: ${response }</li>
+		<c:forEach var="response" 
+		           items="${ansData.responses}" varStatus="status">
+		<li>${status.index + 1}ë²ˆ ë¬¸í•­: ${response}</li>
 		</c:forEach>
-		</ul>
-		<p>ÀÀ´äÀÚ À§Ä¡ : ${ansData.res.location }</p>
-		<p>ÀÀ´äÀÚ ³ªÀÌ : ${ansData.res.age }</p>
+	</ul>
+	<p>ì‘ë‹µì ìœ„ì¹˜: ${ansData.res.location}</p>
+	<p>ì‘ë‹µì ë‚˜ì´: ${ansData.res.age}</p>
 </body>
 </html>
